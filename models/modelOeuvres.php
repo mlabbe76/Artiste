@@ -4,7 +4,7 @@
 
     public function getAllOeuvres(){
             $sql = "SELECT * FROM oeuvre";
-            $getAllOeuvres =$this->goQuery($sql;
+            $getAllOeuvres =$this->goQuery($sql);
             return $getAllOeuvres;
     }
 }        

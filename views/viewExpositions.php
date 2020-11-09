@@ -8,5 +8,7 @@ $this->title='Expositions @ Site Artiste';?>
         foreach ($AllExpo as $expos):
         echo "<h5>Nom de l'expo : ".$expos['nom']."</h5>";
         echo "<p>Lieu de l'expo : ".$expos['lieu']."</p>";
+        echo "<p>Adresse : ".$expos['adresse']."</p>";
+        echo "<p>Date Vernissage : ".$expos['dateVernissage']."</p>";
         endforeach; ?>
 </section>

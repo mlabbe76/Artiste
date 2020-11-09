@@ -1,7 +1,7 @@
 <?php
 
 $this->title = 'Accueil @ Site Artiste';
-?><section style="margin:2% 10%";>
+?><section style="margin:0% 7%";>
 
     <h1>Artiste Pablo Picasso</h1>
 
@@ -42,7 +42,9 @@ $this->title = 'Accueil @ Site Artiste';
     <?php
         foreach ($lastExpo as $expo) :
             echo "<p><b>Nom de l'Expo</b> : ".$expo['nom']."</p>";
-
+            echo "<p><b>Lieu</b> : ".$expo['lieu']."</p>";
+            echo "<p><b>Adresse</b> : ".$expo['adresse']."</p>";
+            echo "<p><b>Date du Vernissage</b> : ".$expo['dateVernissage']."</p>";
         endforeach; ?>
 
 </section>
